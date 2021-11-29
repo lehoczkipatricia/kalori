@@ -16,10 +16,10 @@ public class CaloryTest {
         double weight = 60;
         double height = 175;
         int age = 25;
-        double expectedCalory = 525.0;
+        double expectedCalory = 1436.312;
         double actualCalory = this.calory.calcWoman(weight, height, age);
 
-        assertEquals(expectedCalory, actualCalory);
+        assertEquals(expectedCalory, actualCalory, 0.001);
     }
 
         
