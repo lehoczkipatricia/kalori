@@ -1,0 +1,10 @@
+// Név: Lehoczki Patrícia
+// Dátum: 2021.11.29
+
+{
+    "java.project.sourcePaths": ["src", "test"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
