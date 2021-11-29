@@ -22,6 +22,17 @@ public class CaloryTest {
         assertEquals(expectedCalory, actualCalory, 0.001);
     }
 
+    @Test
+    void calcCalcoryManTest(){
+        double weight = 90;
+        double height = 190;
+        int age = 30;
+        double expectedCalory = 2035.892;
+        double actualCalory = this.calory.calcMan(weight, height, age);
+
+        assertEquals(expectedCalory, actualCalory, 0.001);
+    }
+
         
 }
 
